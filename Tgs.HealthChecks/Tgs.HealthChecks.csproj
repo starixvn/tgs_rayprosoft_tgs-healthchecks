@@ -5,9 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>Tgs.HealthChecks</PackageId>
-    <Version>0.0.1</Version>
+    <Version>0.0.2</Version>
     <Authors>Raypro</Authors>
     <Product>Tgs.HealthChecks</Product>
+    <PackageProjectUrl>https://gitlab.com/rayprosoft/tgs-healthchecks</PackageProjectUrl>
+    <RepositoryUrl>https://gitlab.com/rayprosoft/tgs-healthchecks.git</RepositoryUrl>
+    <PackageTags>Tgs HealthCheck</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
