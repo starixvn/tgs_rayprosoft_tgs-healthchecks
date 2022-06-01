@@ -7,6 +7,7 @@
     <PackageId>Tgs.HealthChecks</PackageId>
     <Version>0.0.1</Version>
     <Authors>Raypro</Authors>
+    <Product>Tgs.HealthChecks</Product>
   </PropertyGroup>
 
   <ItemGroup>
