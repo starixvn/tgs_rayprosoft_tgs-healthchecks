@@ -7,7 +7,7 @@ public static class HealthChecksBuilderExtensions
 {
 	private const string DefaultName = "sysmemusage";
 
-	public static IHealthChecksBuilder AddSystemMemory(
+	public static IHealthChecksBuilder AddSystemMemoryUsage(
 		this IHealthChecksBuilder builder,
 		int memoryUsagePercentageLimit,
 		string? name = default,
