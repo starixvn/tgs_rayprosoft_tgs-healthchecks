@@ -18,7 +18,8 @@ internal class SystemMemoryUsageHealthCheck : IHealthCheck
 
 		using var proc = Process.GetCurrentProcess();
 
-		metrics.Total = GC.GetTotalMemory(false);
+		var memInfo = GC.GetGCMemoryInfo();
+		metrics.Total = memInfo.TotalAvailableMemoryBytes;
 		metrics.Used = proc.PrivateMemorySize64;
 		metrics.Free = metrics.Total - metrics.Free;
 
